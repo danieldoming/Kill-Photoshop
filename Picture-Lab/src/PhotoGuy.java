@@ -177,16 +177,16 @@ public class PhotoGuy
 				case 16: PictureTester.testCopy();
 				break;
 				
-				case 17: image = new Picture ("swan.jpg");
+				case 17: 
 				break;
 				
-				case 18: image = new Picture ("temple.jpg");
+				case 18: 
 				break;
 				
-				case 19: image = new Picture ("water.jpg");
+				case 19: 
 				break;
 				
-				case 20: image = new Picture ("shrekboiii.jpg");
+				case 20: 
 				break;
 			}
 			
