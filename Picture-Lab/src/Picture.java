@@ -134,7 +134,7 @@ public class Picture extends SimplePicture
 	    	for (Pixel pixelObj : rowArray)
 	    		{
 	    		pixelObj.setBlue(0);
-	    		pixelObj.setRed(0);
+	    		pixelObj.setGreen(0);
 	    		}
 	    	}
 	}
@@ -153,6 +153,30 @@ public class Picture extends SimplePicture
 	    		}
 	    	}
 	}
+	
+	 public void filterChristmas()
+	 {
+		 Pixel[][] pixels = this.getPixels2D();
+		    for (Pixel[] rowArray : pixels)
+		    	{
+		    	for (Pixel pixelObj : rowArray)
+		    		{
+		    		pixelObj.setBlue(0);
+		    		
+		    		if (pixelObj.getGreen() > pixelObj.getRed())
+		    			{
+		    				pixelObj.setRed(pixelObj.getRed()-100);
+		    				pixelObj.setGreen(pixelObj.getGreen()+50);
+		    			}
+		    		else
+		    			{
+		    				pixelObj.setGreen(pixelObj.getGreen()-100);
+		    				pixelObj.setRed(pixelObj.getRed()+50);
+		    			}
+		    		
+		    		}
+		    	}
+	 }
 	public void grayscale()
 	{
 		Pixel[][] pixels = this.getPixels2D();

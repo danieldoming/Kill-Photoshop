@@ -48,7 +48,7 @@ public class PhotoGuy
 				case 2: image = new Picture ("beach.jpg");
 				break;
 				
-				case 3: image = new Picture ("blueMotorcyle.jpg");
+				case 3: image = new Picture ("blueMotorcycle.jpg");
 				break;
 				
 				case 4: image = new Picture ("butterfly1.jpg");
@@ -124,8 +124,8 @@ public class PhotoGuy
 			System.out.println("12) Keep only blue.");
 			System.out.println("13) Keep only green.");
 			System.out.println("14) Keep only red.");
-			System.out.println("15) A gull from the sea.");
-			System.out.println("16) ");
+			System.out.println("15) Chrsitmas colors filter.");
+			System.out.println("16) Copy");
 			int tool = userTool.nextInt();
 			switch (tool)
 			{
@@ -150,7 +150,7 @@ public class PhotoGuy
 				case 7: PictureTester.testMirrrorHorizontalBottomToTop();
 				break;
 				
-				case 8: PictureTester.testPictureDiagonal(); //check functionality 
+				case 8: PictureTester.testPictureDiagonal(); //check functionality ie. caterpillar
 				break;
 				
 				case 9: PictureTester.testMirrorVertical();
@@ -171,22 +171,22 @@ public class PhotoGuy
 				case 14: PictureTester.testOnlyRed();
 				break;
 				
-				case 15: image = new Picture ("seagull.jpg");
+				case 15: PictureTester.testChristmas();
 				break;
 				
-				case 16: image = new Picture ("snowman.jpg");
+				case 16: PictureTester.testCopy();
 				break;
 				
-				case 17: image = new Picture ("swan.jpg");
+				case 17: 
 				break;
 				
-				case 18: image = new Picture ("temple.jpg");
+				case 18: 
 				break;
 				
-				case 19: image = new Picture ("water.jpg");
+				case 19: 
 				break;
 				
-				case 20: image = new Picture ("shrekboiii.jpg");
+				case 20: 
 				break;
 			}
 			
