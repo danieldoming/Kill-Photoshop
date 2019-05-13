@@ -125,6 +125,13 @@ public class PictureTester
 	  PhotoGuy.image.explore();
   }
   
+  public static void testChristmas()
+  {
+	  PhotoGuy.image.explore();
+	  PhotoGuy.image.filterChristmas();
+	  PhotoGuy.image.explore();
+  }
+  
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
@@ -140,6 +147,13 @@ public class PictureTester
     Picture canvas = new Picture("640x480.jpg");
     canvas.createCollage();
     canvas.explore();
+  }
+  
+  public static void testCopy()
+  {
+	  PhotoGuy.image.explore();
+	  PhotoGuy.image.copy(PhotoGuy.image, 20 , 20);
+	  PhotoGuy.image.explore();
   }
   
   /** Method to test edgeDetection */
@@ -181,7 +195,7 @@ public class PictureTester
     //testMirrorGull();
     //testMirrorDiagonal();
     //testCollage();
-    //testCopy();
+    testCopy();
     //testEdgeDetection();
     //testEdgeDetection2();
     //testChromakey();
