@@ -36,7 +36,7 @@ public class PhotoGuy
 			System.out.println("16) A jolly snowman.");
 			System.out.println("17) A peaceful swan.");
 			System.out.println("18) A temple.");
-			System.out.println("19) Water.");
+			System.out.println("19) Patrick Rooney.");
 			System.out.println("20) Our personal favorite... shrek.");
 			
 			int pic = userImage.nextInt();
@@ -96,7 +96,7 @@ public class PhotoGuy
 				case 18: image = new Picture ("temple.jpg");
 				break;
 				
-				case 19: image = new Picture ("water.jpg");
+				case 19: image = new Picture ("PatrickRooney.jpg");
 				break;
 				
 				case 20: image = new Picture ("shrekboiii.jpg");
