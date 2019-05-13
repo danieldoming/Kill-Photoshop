@@ -87,6 +87,19 @@ public class Picture extends SimplePicture
 	    		}
 	    	}
 		}
+	
+	public void zeroRed()
+	{
+    Pixel[][] pixels = this.getPixels2D();
+    for (Pixel[] rowArray : pixels)
+    	{
+    	for (Pixel pixelObj : rowArray)
+    		{
+    		pixelObj.setRed(0);
+    		}
+    	}
+	}
+	
 	public void keepOnlyBlue()
 		{
 			Pixel[][] pixels = this.getPixels2D();
@@ -99,6 +112,33 @@ public class Picture extends SimplePicture
 		    		}
 		    	}
 		}
+	
+	public void keepOnlyGreen()
+	{
+		Pixel[][] pixels = this.getPixels2D();
+	    for (Pixel[] rowArray : pixels)
+	    	{
+	    	for (Pixel pixelObj : rowArray)
+	    		{
+	    		pixelObj.setBlue(0);
+	    		pixelObj.setRed(0);
+	    		}
+	    	}
+	}
+	
+	public void keepOnlyRed()
+	{
+		Pixel[][] pixels = this.getPixels2D();
+	    for (Pixel[] rowArray : pixels)
+	    	{
+	    	for (Pixel pixelObj : rowArray)
+	    		{
+	    		pixelObj.setBlue(0);
+	    		pixelObj.setRed(0);
+	    		}
+	    	}
+	}
+	
 	public void negatePicture()
 	{
 		Pixel[][] pixels = this.getPixels2D();
