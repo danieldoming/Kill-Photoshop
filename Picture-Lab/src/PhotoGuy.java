@@ -126,6 +126,7 @@ public class PhotoGuy
 			System.out.println("14) Keep only red.");
 			System.out.println("15) Chrsitmas colors filter.");
 			System.out.println("16) Copy");
+			System.out.println("17) darken an image");
 			int tool = userTool.nextInt();
 			switch (tool)
 			{
@@ -177,7 +178,7 @@ public class PhotoGuy
 				case 16: PictureTester.testCopy();
 				break;
 				
-				case 17: 
+				case 17: PictureTester.darkenImage();
 				break;
 				
 				case 18: 
