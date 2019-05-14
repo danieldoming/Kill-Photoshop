@@ -144,9 +144,10 @@ public class PictureTester
   /** Method to test the collage method */
   public static void testCollage()
   {
-    Picture canvas = new Picture("640x480.jpg");
-    canvas.createCollage();
-    canvas.explore();
+    //Picture canvas = new Picture("640x480.jpg");
+    PhotoGuy.image.createCollage();
+    //canvas.createCollage();
+    PhotoGuy.image.explore();
   }
   
   public static void testCopy()
