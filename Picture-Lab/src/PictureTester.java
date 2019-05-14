@@ -156,6 +156,13 @@ public class PictureTester
 	  PhotoGuy.image.explore();
   }
   
+  public static void darkenImage()
+	  {
+		  PhotoGuy.image.explore();
+		  PhotoGuy.image.darkenImage();
+		  PhotoGuy.image.explore();
+	  }
+  
   /** Method to test edgeDetection */
   public static void testEdgeDetection()
   {
@@ -173,15 +180,15 @@ public class PictureTester
     // and comment out the ones you don't want
     // to run
     //testZeroBlue();
-	  //testMirrorGull();
-	  //testMirrorArms();
-	  //testPictureDiagonal();
-	  //testMirrrorHorizontalBottomToTop();
-	  //testMirrorHorizontal();
-	  //testMirrorVerticalRightToLeft();
-	  //testFixUnderWater();
-	  //testGrayscale();
-	  // testNegatePicture();
+	//testMirrorGull();
+	//testMirrorArms();
+	//testPictureDiagonal();
+	//testMirrrorHorizontalBottomToTop();
+	//testMirrorHorizontal();
+	//testMirrorVerticalRightToLeft();
+	//testFixUnderWater();
+	//testGrayscale();
+	// testNegatePicture();
 	//testOnlyBlue();
     //testKeepOnlyBlue();
     //testKeepOnlyRed();
