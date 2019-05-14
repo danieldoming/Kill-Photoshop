@@ -150,7 +150,7 @@ public class PhotoGuy
 				case 7: PictureTester.testMirrrorHorizontalBottomToTop();
 				break;
 				
-				case 8: PictureTester.testPictureDiagonal(); //check functionality ie. caterpillar
+				case 8: PictureTester.testPictureDiagonal(); 
 				break;
 				
 				case 9: PictureTester.testMirrorVertical();
