@@ -126,7 +126,7 @@ public class PhotoGuy
 			System.out.println("14) Keep only red.");
 			System.out.println("15) Chrsitmas colors filter.");
 			System.out.println("16) Copy");
-			System.out.println("17) darken an image");
+			System.out.println("17) Adjust brightness.");
 			int tool = userTool.nextInt();
 			switch (tool)
 			{
