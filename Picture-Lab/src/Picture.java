@@ -109,8 +109,8 @@ public class Picture extends SimplePicture
 			int darkness = 0;
 			String question = "";
 			
-			System.out.println("welcome to  the shrekenator darkener 5000. this method lowers the darkness of an image to make it as spoooooky as possible");
-			System.out.println("enter a number between 0 and 255 to darken or birghten the image");
+			//System.out.println("welcome to  the shrekenator darkener 5000. this method lowers the darkness of an image to make it as spoooooky as possible");
+			System.out.println("Enter a number between 0 and 255 to darken or birghten the image. Higher numbers are darker.");
 			
 					darkness = userInput.nextInt();
 					
